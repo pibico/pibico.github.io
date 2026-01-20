@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="2; url=https://pibico.github.io/portal/">
     <title>Redirecting to the pibiCo portal...</title>
+    <style>
+        body {
+          margin: 0;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #ffffff;
+        }
+    
+        .logo {
+          width: 150px;
+          animation: blink 1s infinite;
+        }
+    
+        @keyframes blink {
+          0%, 50%, 100% {
+            opacity: 1;
+          }
+          25%, 75% {
+            opacity: 0;
+          }
+        }
+    </style>
     <!--meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pibiCo - Open Source Frappe Apps</title>
     <style>
@@ -54,6 +78,9 @@
     <p>Go to the pibiCo portal, 
        <a href="https://pibico.github.io/portal/">click here</a>.
     </p>
+
+    <img src="logo.png" alt="Logo" class="logo">
+    
     <!--div class="container">
         <header>
             <h1>pibi<span>Co</span></h1>
